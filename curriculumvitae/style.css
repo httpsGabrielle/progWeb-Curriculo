@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&family=Lato:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0;
+}
+body{
+    background-color: #f9f9f9;
+}
+h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+h3{
+    margin-bottom: 8px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #202020;
+}
+p{
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+}
+
+.main{
+    position: relative;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    top: 5vw;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+header{
+    width: 100%;
+    padding: 56px 36px;
+    background-color: #edeef0;
+}
+.container-md{
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 16px;
+}
+.container-left{
+    width: 30%;  
+}
+.container-md > .container-left{
+    border-right: 2px solid #989a99;
+}
+.profile-pic{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    background-image: url('/curriculumvitae/img/profile.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.contacts-info{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.container-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 24px;
+    margin: 8px 16px;
+}
+.icon{
+    width: 100%;
+}
+.container-right{
+    width: 70%;
+    padding: 0px 36px;
+}
+.container{
+    padding: 16px;
+}
+.container-exp{
+    display: flex;
+}
+.grid-icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.justify-txt{
+    text-align: justify;
+}
